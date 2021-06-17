@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table
+{
+border:3px solid black;
+}
+td
+{
+padding:20px;
+border:2px solid black;
+}
+
+th
+{
+padding:20px;
+border:2px solid black;
+}
+</style>
+</head>
+<body>
+
+<form action="/action.php">
+<table>
+
+<tr>
+<th><label for="name">NAME:</label></th>
+<td colspan="3"><input type="text" id="name" name="name" value=""></td></tr>
+
+<tr>
+<th><label for="password">PASSWORD:</label></th>
+<td colspan="3"><input type="text" id="password" name="password" value=""></td></tr>
+
+<tr>
+<th><label for="address">ADDRESS:</label></th>
+<td colspan="3"><input type="text" id="address" name="address" value=""></td></tr>
+
+<tr>
+<th><label for="email">EMAIL:</label></th>
+<td colspan="3"><input type="text" id="email" name="email" value=""></td></tr>
+
+<tr>
+<th><label for="contact">CONTACT NO:</label></th>
+<td colspan="3"><input type="text" id="contact" name="contact" value=""></td></tr>
+
+<tr>
+<th><label for ="name">LAUNGUAGE</label></th>
+<th><input type="checkbox" id="lang1" name="lang1" value="pushto">PUSHTO</th>
+<th><input type="checkbox" id="lang2" name="lang2" value="urdu">URDU</th>
+<th><input type="checkbox" id="lang3" name="lang3" value="english">ENGLISH</th>
+</tr>
+
+<tr>
+<th><label for ="name">CARS</label></th>
+<th><input type="checkbox" id="car1" name="car1" value="HONDA">HONDA</th>
+<th><input type="checkbox" id="car2" name="car2" value="TOYOTA">TOYOTA</th>
+<th><input type="checkbox" id="car3" name="car3" value="SUZUKI">SUZUKI</th>
+</tr>
+
+<tr>
+<th><label for ="name">GENDERS</label></th>
+<th colspan="1"><input type="radio" id="male" name="male" value="male">MALE</th>
+<th colspan="2"><input type="radio" id="male" name="male" value="female">FEMALE</th>
+</tr>
+
+<tr>
+<td colspan="4" align="center"><input type="submit" value="submit"></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
